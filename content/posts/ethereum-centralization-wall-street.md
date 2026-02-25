@@ -36,7 +36,7 @@ Similar to our concentration in Ethereum, in our traditional systems we have fou
 
 Moreover, the same investors mentioned earlier are also involved in actively-managed funds. In these types of funds, they make their own stock picks and have the power to sell stocks if businesses they are invested in do not comply with their suggestions. It is easy to see how much power they have over the companies they own, which is open to potential misuse. As an example, below is a look at the US banking industry which shows how centralized its ownership is (this is an issue that goes beyond the US and affects other major industries worldwide).
 
-![](/images/table.jpg)
+<img src="/images/table.jpg" style="width: 80%;" />
 
 There are several papers that point out that such power and influence from institutional investors has been reflected in a diminished level of competition, an upward trend in prices, and a decrease in investments (combined with an increase in stock buybacks). As you can imagine, the same investors own the same companies and competing in prices is the ultimate thing they want to see since it will lower their profits.
 
