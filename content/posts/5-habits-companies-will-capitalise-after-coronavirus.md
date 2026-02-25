@@ -2,7 +2,7 @@
 title: "5 New habits that companies will capitalise after coronavirus"
 date: 2020-03-29
 draft: false
-tags: ["Life"]
+tags: ["Investing", "Life"]
 ---
 
 *I originally wrote and posted this article on Medium two weeks after we got locked down due to the spread of Covid. At that time I was living in Ireland with my wife and the future looked very uncertain. Those predictions might look obvious in hindsight but they weren't back then.*
