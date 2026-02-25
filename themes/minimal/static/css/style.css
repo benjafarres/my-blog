@@ -175,3 +175,9 @@ article a {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+article img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5em 0;
+}

@@ -9,6 +9,8 @@ Three months have passed since Ethereum switched to proof of stake. Despite the 
 
 The main worry that followed us before and after the merge is still here. The issue that three entities control more than 50% of the network remains unsolved. Do we need to address this? Absolutely! Is there cause for alarm? Not as much as one might think. On the other hand, should we be worried that conventional financial systems are becoming more and more centralized? Absolutely; allow me to explain why.
 
+![](/images/pepe.svg)
+
 ## Censorship resistance in its nature
 
 The potential problem of Coinbase, Lido and Kraken jointly controlling over 50% of the chain is that they can choose which type of transactions they want to censor. All three of these entities have ties to US authorities, meaning that they could be asked to carry certain orders and censor specific transactions if needed.
@@ -32,7 +34,9 @@ Over the past couple of decades, the amount of assets held in index funds has sk
 
 Similar to our concentration in Ethereum, in our traditional systems we have four big players: BlackRock, Vanguard, State Street and Fidelity. Combined, three of these institutions (BlackRock, Vanguard and State Street) are the largest individual stakeholders of 40% of the public companies operating in the United States and nearly 90% of the public companies listed on the S&P 500.
 
-Moreover, the same investors mentioned earlier are also involved in actively-managed funds. In these types of funds, they make their own stock picks and have the power to sell stocks if businesses they are invested in do not comply with their suggestions. It is easy to see how much power they have over the companies they own, which is open to potential misuse.
+Moreover, the same investors mentioned earlier are also involved in actively-managed funds. In these types of funds, they make their own stock picks and have the power to sell stocks if businesses they are invested in do not comply with their suggestions. It is easy to see how much power they have over the companies they own, which is open to potential misuse. As an example, below is a look at the US banking industry which shows how centralized its ownership is (this is an issue that goes beyond the US and affects other major industries worldwide).
+
+![](/images/table.jpg)
 
 There are several papers that point out that such power and influence from institutional investors has been reflected in a diminished level of competition, an upward trend in prices, and a decrease in investments (combined with an increase in stock buybacks). As you can imagine, the same investors own the same companies and competing in prices is the ultimate thing they want to see since it will lower their profits.
 
