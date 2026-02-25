@@ -32,11 +32,11 @@
 
 body {
   font-family: Georgia, serif;
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 19px;
+  line-height: 1.85;
   color: var(--text);
   background: var(--bg);
-  max-width: 660px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 60px 30px;
   transition: background 0.2s, color 0.2s;
