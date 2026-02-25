@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.156.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benja Farres</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    
+    if (localStorage.getItem('theme') === 'light') {
+      document.documentElement.classList.add('light');
+    }
+  </script>
+</head>
+<body>
+  <div class="topbar">
+    <button id="theme-toggle" aria-label="Toggle theme"></button>
+  </div>
+  
+<h1 class="site-title">Benja Farres</h1>
+
+<hr>
+<div class="tag-cloud">
+  
+    <a href="/tags/life/">life</a>
+  
+</div>
+<hr>
+
+<div class="post-list">
+  
+  <div class="post-item">
+    <div class="post-date">2026 Feb 25</div>
+    <a href="/posts/hello-world/">Hello World</a>
+  </div>
+  
+</div>
+
+  <script>
+    const btn = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+
+    btn.textContent = root.classList.contains('light') ? '☾' : '☀';
+
+    btn.addEventListener('click', () => {
+      root.classList.toggle('light');
+      const isLight = root.classList.contains('light');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      btn.textContent = isLight ? '☾' : '☀';
+    });
+  </script>
+</body>
+</html>

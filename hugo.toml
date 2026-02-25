@@ -1,0 +1,7 @@
+baseURL = 'https://benjafarres.com/'
+languageCode = 'en-us'
+title = 'Benja Farres'
+theme = 'minimal'
+
+[taxonomies]
+  tag = 'tags'

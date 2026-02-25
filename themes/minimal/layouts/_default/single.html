@@ -1,0 +1,12 @@
+{{ define "main" }}
+<p class="back"><a href="/">← back</a></p>
+
+<div class="post-header">
+  <h1>{{ .Title }}</h1>
+  <div class="post-date">{{ .Date.Format "January 2, 2006" }}</div>
+</div>
+
+<article>
+  {{ .Content }}
+</article>
+{{ end }}

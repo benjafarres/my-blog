@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World | Benja Farres</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    
+    if (localStorage.getItem('theme') === 'light') {
+      document.documentElement.classList.add('light');
+    }
+  </script>
+</head>
+<body>
+  <div class="topbar">
+    <button id="theme-toggle" aria-label="Toggle theme"></button>
+  </div>
+  
+<p class="back"><a href="/">← back</a></p>
+
+<div class="post-header">
+  <h1>Hello World</h1>
+  <div class="post-date">February 25, 2026</div>
+</div>
+
+<article>
+  <p>This is my first post. More to come.</p>
+
+</article>
+
+  <script>
+    const btn = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+
+    btn.textContent = root.classList.contains('light') ? '☾' : '☀';
+
+    btn.addEventListener('click', () => {
+      root.classList.toggle('light');
+      const isLight = root.classList.contains('light');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      btn.textContent = isLight ? '☾' : '☀';
+    });
+  </script>
+</body>
+</html>

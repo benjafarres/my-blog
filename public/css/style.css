@@ -1,0 +1,177 @@
+:root {
+  --bg: #111;
+  --text: #bbb;
+  --heading: #fff;
+  --post-title: #fff;
+  --gold: #c8a865;
+  --date: #555;
+  --hr: #333;
+  --article-heading: #ddd;
+  --back-link: #c8a865;
+  --toggle: #666;
+}
+
+:root.light {
+  --bg: #fff;
+  --text: #333;
+  --heading: #111;
+  --post-title: #111;
+  --gold: #8a6520;
+  --date: #aaa;
+  --hr: #ddd;
+  --article-heading: #222;
+  --back-link: #8a6520;
+  --toggle: #999;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* ── Toggle button ── */
+
+.topbar {
+  text-align: right;
+  margin-bottom: 1.5em;
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  color: var(--toggle);
+  font-size: 1em;
+  cursor: pointer;
+  padding: 4px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+#theme-toggle:hover {
+  opacity: 1;
+}
+
+/* ── Homepage ── */
+
+.site-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--heading);
+  margin-bottom: 0.8em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--hr);
+  margin: 1.2em 0;
+}
+
+.tag-cloud {
+  text-align: center;
+  padding: 0.8em 0;
+  line-height: 2.6;
+}
+
+.tag-cloud a {
+  color: var(--gold);
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+.tag-cloud a:hover {
+  text-decoration: underline;
+}
+
+.post-list {
+  margin-top: 2em;
+}
+
+.post-item {
+  margin-bottom: 1.6em;
+}
+
+.post-date {
+  font-size: 0.75em;
+  color: var(--date);
+  letter-spacing: 0.03em;
+}
+
+.post-item a {
+  color: var(--post-title);
+  text-decoration: none;
+  font-size: 1.05em;
+  font-weight: bold;
+  display: block;
+}
+
+.post-item a:hover {
+  text-decoration: underline;
+}
+
+/* ── Single post ── */
+
+.back {
+  margin-bottom: 2.5em;
+}
+
+.back a {
+  color: var(--back-link);
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+.back a:hover {
+  text-decoration: underline;
+}
+
+.post-header {
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+.post-header h1 {
+  color: var(--heading);
+  font-size: 1.6em;
+  margin-bottom: 0.3em;
+}
+
+.post-header .post-date {
+  font-size: 0.8em;
+  color: var(--date);
+}
+
+article p {
+  margin-bottom: 1.2em;
+}
+
+article h2 {
+  color: var(--article-heading);
+  font-size: 1.15em;
+  margin: 2em 0 0.5em;
+}
+
+article h3 {
+  color: var(--article-heading);
+  font-size: 1em;
+  margin: 1.5em 0 0.4em;
+}
+
+article a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
