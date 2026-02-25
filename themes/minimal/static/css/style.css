@@ -36,7 +36,7 @@ body {
   line-height: 1.7;
   color: var(--text);
   background: var(--bg);
-  max-width: 780px;
+  max-width: 660px;
   margin: 0 auto;
   padding: 60px 30px;
   transition: background 0.2s, color 0.2s;
