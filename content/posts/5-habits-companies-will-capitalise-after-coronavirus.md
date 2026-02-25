@@ -5,6 +5,10 @@ draft: false
 tags: ["Investing", "Life"]
 ---
 
+*I originally wrote and posted this article on Medium two weeks after we got locked down due to the spread of Covid. At that time I was living in Ireland with my wife and the future looked very uncertain. Those predictions might look obvious in hindsight but they weren't back then.*
+
+---
+
 If there is a clear lesson from this Covid-19 crisis is that Western governments are still living in the Stone Age. Saving lives from future epidemics will mean to change our habits.
 
 In the 2000s we pioneered the consumers online experience, in the 2010s we shifted our social interactions online and in the 2020s we'll manage to merge both.
