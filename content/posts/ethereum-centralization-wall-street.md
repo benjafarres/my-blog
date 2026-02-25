@@ -9,7 +9,7 @@ Three months have passed since Ethereum switched to proof of stake. Despite the 
 
 The main worry that followed us before and after the merge is still here. The issue that three entities control more than 50% of the network remains unsolved. Do we need to address this? Absolutely! Is there cause for alarm? Not as much as one might think. On the other hand, should we be worried that conventional financial systems are becoming more and more centralized? Absolutely; allow me to explain why.
 
-![](/images/pepe.svg)
+<img src="/images/pepe.svg" style="width: 120px;" />
 
 ## Censorship resistance in its nature
 
